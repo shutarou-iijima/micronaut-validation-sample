@@ -1,0 +1,11 @@
+---
+micronaut:
+  application:
+    name: sample
+
+---
+micronaut:
+  io:
+    watch:
+      paths: src/main
+      restart: true
